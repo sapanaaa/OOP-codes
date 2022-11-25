@@ -9,3 +9,4 @@ int main()
     sum=a+b;
     cout<<"The sum of two numbers are"<<sum;
 }
+//lw aab feri arkho file banayerea push garne dekhauxuh hera
