@@ -1,23 +1,22 @@
 #include<iostream>
-#include<conio.h>
 using namespace std;
 class student
 {
 private:
-    char name;
+    string name;
     int roll;
     float marks;
-    void enter();
 public:
     int age;
-    void input()
+    int input()
     {
         cout<<"enter name, roll no, marks and age"<<endl;
-        cin>>name>>roll>marks>>age;
+        cin>>name>>roll>>marks>>age;
     }
-    void display()
-    {
-        cout<<name<<roll<<marks<<age;
+    int display()
+    {  
+        cout<< "The given info is :"<<name<<endl<< roll<< endl<< marks<< endl<< age<< endl;
+
     }
 };
 int main()
@@ -25,7 +24,6 @@ int main()
     student ram, om;
     ram.input();
     ram.display();
-    ram.enter();
     om.input();
     om.display();
     return 0;
