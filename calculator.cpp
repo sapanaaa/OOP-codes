@@ -5,7 +5,7 @@ class calculator
 private:
     char cat;
     int sum, diffrence, product, x, y;
-    float division;
+    float division; 
 
 public:
     int age;
