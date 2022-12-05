@@ -22,11 +22,11 @@ class student
             void showdate();
         };    
 };
-void student::date::showdate();
-void student::date::getdate();
+void student::date::getdate()
 {
-    cin>>day>>month>>year;
+        cin>>day>>month>>year;
 }
+void student::date::showdate()
 {
     cout<<"day,month and year are"<<day<<"\t"<<month<<"\t"<<year;
 }
