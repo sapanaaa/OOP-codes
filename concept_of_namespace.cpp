@@ -12,15 +12,15 @@ class time
     {
         cout<<hours<<"hours and"<<minutes<<"minutes";
     }
-    void sum(time time);
+    void sum(time, time);
 };
-//void time::sum(time t1, time t2);
-//{
-//    minutes= t1.minutes + t2.minutes;
-//    hours= minutes/60;
-//    minutes= minutes%60;
-//    hours= hours + t1.hours + t2.hours;
-//}
+void time::sum(time t1, time t2)
+{
+    minutes= t1.minutes + t2.minutes;
+    hours= minutes/60;
+    minutes= minutes%60;
+    hours= hours + t1.hours + t2.hours;
+}
 int main()
 {
     time T1, T2, T3;
