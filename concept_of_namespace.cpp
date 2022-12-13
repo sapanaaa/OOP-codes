@@ -23,6 +23,7 @@ void time::sum(time t1, time t2)
 }
 int main()
 {
+    system("cls");
     time T1, T2, T3;
     T1.gettime(2, 50);
     T2.gettime(3, 38);
