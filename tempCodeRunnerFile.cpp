@@ -1,1 +1,1 @@
-{    cout<<"enter day month and year"<<endl;
+    // ptr->p=5;
