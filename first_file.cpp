@@ -1,3 +1,4 @@
+//cpp code to sum two integers
 #include<iostream>
 using namespace std;
 int main()
@@ -9,4 +10,3 @@ int main()
     sum=a+b;
     cout<<"The sum of two numbers are"<<sum;
 }
-//lw aab feri arkho file banayerea push garne dekhauxuh hera
