@@ -1,3 +1,4 @@
+//to add two integers using DMA
 #include<iostream>
 using namespace std;
 
@@ -7,7 +8,7 @@ int main()
     pa= new int;
     pb= new int;
     psum= new int;
-    cout<<"enter two entegers";
+    cout<<"enter two integers";
     cin>>*pa>>*pb;
     *psum=*pa + *pb;
     cout<<"sum="<<*psum;
