@@ -34,4 +34,3 @@ int main()
     average(obj);
     return 0;
 }
-// lw mw gaye ya bata mero class hunca laptop mah see you ssopn
