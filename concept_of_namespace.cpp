@@ -1,3 +1,4 @@
+//concept of namespace
 #include<iostream>
 using namespace std;
 class time
