@@ -1,36 +1,39 @@
-//inline function practice code
-#include<iostream>
+#include <iostream>
 using namespace std;
-inline int name(char n[20]) 
+
+inline void name(string s)
 {
-    char name;
-    cout<<"the name of student is:"<<endl;
-    return (name);
-} 
-inline int roll(int r)
-{
-    int roll;
-    cout<<"the roll no. of student is:"<<endl;
-    return (roll);
+    cout << "Your name is " << s << endl;
 }
-inline int marks(float m)
+
+inline void roll(int r)
 {
-    float marks;
-    cout<<"the marks of student are:"<<endl;
-    return (marks);
-}  
+    cout << "Your roll number is " << r << endl;
+}
+
+inline void marks(float m)
+{
+    cout << "Your marks are " << m << endl;
+}
+
 int main()
 {
     system("cls");
-    char x, n[20];
-    int y,r;
-    float z, m;
-    
-    cout<<"enter name, roll no. and marks of a student:";
-    cin>>n>>r>>m;
+    string s;
+    int r;
+    float m;
 
-    x=name(n); 
-    y=roll(r);
-    z=marks(m);
+    cout << "Enter your name: "; //enter name like sapna avoid (spaces)
+    cin >> s;
+    name(s);
+
+    cout << "Enter your roll number: ";
+    cin >> r;
+    roll(r);
+
+    cout << "Enter your marks: ";
+    cin >> m;
+    marks(m);
+
     return 0;
 }
