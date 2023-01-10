@@ -1,3 +1,4 @@
+//finding greatest among 3 using concept of function
 #include<iostream>
 #include<conio.h>
 using namespace std;
