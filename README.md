@@ -1,2 +1,1 @@
-### My oop codes are here
-## OOP Codes from the note of our fwu engineering syllabus.
+some of oop codes from my syllabus i did for practice
