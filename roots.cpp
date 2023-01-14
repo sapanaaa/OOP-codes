@@ -1,4 +1,4 @@
-//code to find roots of a quadratic equation
+//a code to find roots of a quadratic equation
 #include<iostream>
 #include<math.h>
 using namespace std;
