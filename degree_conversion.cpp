@@ -15,7 +15,7 @@ class celsius
     }
     void gettemp()
     {
-        cout<<"enter temperature in celsius;";
+        cout<<"enter temperature in celsius;"<<endl;
         cin>>temp;
     }
 };
