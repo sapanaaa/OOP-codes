@@ -17,7 +17,7 @@ class derived: public base1, public base2, public base3
     int sum;
     public: void input()
     {
-        cout<<"enter values of x, y and z:"<<endl;
+        cout<<"enter the values of x, y and z:"<<endl;
         cin>>x>>y>>z;
     }
     int add(int a, int b, int c)
